@@ -4,6 +4,7 @@ bin/
 .idea
 *.iml
 *.ipr
+obj/
 .project
 .settings
 target

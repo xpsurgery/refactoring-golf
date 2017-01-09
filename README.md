@@ -6,7 +6,7 @@ series of "holes". Each hole is usually more challenging than its
 predecessors, although to some extent this depends on your choice of
 refactoring tool.
 
-The Java holes are equivalent to the C# holes.
+The Java and C# holes are roughly equivalent in intent.
 
 Rules
 -----
