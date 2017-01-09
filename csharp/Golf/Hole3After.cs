@@ -9,7 +9,7 @@ namespace Golf
 		private List<Instruction> instructions = new List<Instruction>();
 
 		public void parseCommand(String command) {
-			instructions.Add(Instruction.ToPerform(command));
+			// instructions.Add(Instruction.ToPerform(command));
 		}
 
 	}
