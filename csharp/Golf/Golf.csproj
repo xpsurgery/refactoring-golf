@@ -53,6 +53,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Hole5Tests.cs" />
     <Compile Include="Hole5After.cs" />
+    <Compile Include="Hole6Before.cs" />
+    <Compile Include="Hole6After.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
