@@ -3,25 +3,31 @@ using System;
 namespace Golf
 {
 
-	public class Hole4After {
+	public class Hole4After
+	{
 
-		public void PrintLabelAndReceipt() {
+		public void PrintLabelAndReceipt()
+		{
 			new Label().Print();
 			new Receipt().Print();
 		}
 
-		class Receipt {
+		class Receipt
+		{
 
-			internal void Print() {
+			internal void Print()
+			{
 				Console.WriteLine("1 Book, 5.99");
 				Console.WriteLine("1 CD, 9.99");
 				Console.WriteLine("Total: 15.98 ");
 			}
 		}
 
-		class Label {
+		class Label
+		{
 
-			internal void Print() {
+			internal void Print()
+			{
 				Console.WriteLine("Mr J Smith");
 				Console.WriteLine("34 High Street");
 				Console.WriteLine("Oxford");

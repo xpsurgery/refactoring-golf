@@ -4,12 +4,12 @@ using System;
 namespace Golf
 {
 
-	public class Hole2After {
-
+	public class Hole2After
+	{
 		private List<Instruction> instructions = new List<Instruction>();
 
-		public void parseCommand(string command) {
-
+		public void parseCommand(string command)
+		{
 			string[] parts = command.Split(null);
 			string direction = parts[0];
 			int amount = Int32.Parse(parts[1]);

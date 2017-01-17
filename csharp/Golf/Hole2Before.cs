@@ -4,12 +4,12 @@ using System;
 namespace Golf
 {
 
-	public class Hole2Before {
-
+	public class Hole2Before
+	{
 		private List<Instruction> instructions = new List<Instruction>();
 
-		public void parseCommand(string command) {
-
+		public void parseCommand(string command)
+		{
 			string[] parts = command.Split(null);
 			string direction = parts[0];
 			int amount = Int32.Parse(parts[1]);
@@ -20,7 +20,6 @@ namespace Golf
 				instructions.Add(new TurnInstruction(amount));
 			if (direction == "right")
 				instructions.Add(new TurnInstruction(-1 * amount));
-
 		}
 
 	}
