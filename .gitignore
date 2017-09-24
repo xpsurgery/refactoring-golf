@@ -9,4 +9,5 @@ obj/
 .settings
 target
 *.userprefs
-
+packages/
+.vs/

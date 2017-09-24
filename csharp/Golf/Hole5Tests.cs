@@ -11,7 +11,7 @@ namespace Golf
 		[Test]
 		public void FirstSevenFibonacciTerms()
 		{
-			IEnumerable<int> seq = new Hole5Before.FibonacciSequence().take(7);
+			IEnumerable<int> seq = new Hole5Before.FibonacciSequence().Take(7);
 			List<int> expected = new List<int> () { 1, 1, 2, 3, 5, 8, 13 };
 			Assert.IsTrue (seq.ToList().SequenceEqual(expected));
 		}
@@ -19,7 +19,7 @@ namespace Golf
 		[Test]
 		public void FirstSevenTriangleNumbers()
 		{
-			IEnumerable<int> seq = new Hole5Before.TriangularNumberSequence().take(7);
+			IEnumerable<int> seq = new Hole5Before.TriangularNumberSequence().Take(7);
 			List<int> expected = new List<int> () { 1, 3, 6, 10, 15, 21, 28 };
 			Assert.IsTrue (seq.ToList().SequenceEqual(expected));
 		}
